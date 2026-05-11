@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Kablammo&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+html{font-size: 100%;}
+
+a {color: #0059c1;}
+a:hover {color: #95d6ff;}
+a:visited {color: #ffffff;}
+
+img, video{
+	max-width: 100%;
+	height: auto;
+  border-radius: 16px; 
+}
+nav ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  display: inline-block;
+  margin-right: 32px;
+}
+nav li:last-child{
+  margin-right: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px;
+    background-color: #95d6ff
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: 200;
+  font-family: "Kablammo", system-ui;
+  text-align: center;
+}
+
+body{
+  background-color: #47a9ff;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: "Cherry Bomb One", system-ui,"ZCOOL QingKe HuangYou", sans-serif;
+  margin: 0 auto;
+  padding: 2rem;         
+  max-width: 70ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  padding: 1rem;
+  background-color: #ffffff;
+  color: #47a9ff;
+  border-radius: 34px;         
+  box-sizing: border-box;  
+}
+p{
+  font-weight: -1313;
+  text-align: left;
+  color: #0059c1;
+}
+
+footer p {
+  margin-top: 3rem;
+  color: #95d6ff;
+}
