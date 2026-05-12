@@ -53,6 +53,11 @@ body{
   margin-right: auto;
 }
 
+.page-3d .gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 figure {
   padding: 1rem;
   background-color: #ffffff;
